@@ -23,7 +23,7 @@ workflows:
           context: wordpress-test
           create-repo: false
           dockerfile: Dockerfile
-          no-output-timeout: 20m
+          no-output-timeout: 200m
           path: .
           profile-name: default
           repo: wordpress
